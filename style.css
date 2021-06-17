@@ -90,7 +90,7 @@ a:hover {
 .contentBg {
   position: relative;
   width: 100%;
-  height: 975px;
+  height: 1000px;
   top: -100px;
 
   background: #ffffff;
@@ -123,6 +123,8 @@ a:hover {
 }
 #Content2 .textContent4 {
   font-size: 36px;
+  text-align: center;
+  margin: 100px 0 0 0;
 }
 /* End Content */
 
@@ -132,6 +134,35 @@ a:hover {
 }
 .titleFooter {
   color: white;
+  padding: 75px 0 0 0;
   text-transform: uppercase;
+}
+.textFooterTitle1 {
+  color: #c00000;
+  font-size: 26px;
+  padding-top: 79px;
+}
+.textFooterTitle2 {
+  color: #c00000;
+  font-size: 26px;
+  padding-top: 79px;
+  display: flex;
+  text-align: center;
+}
+.textFooterTitle3 {
+  color: #c00000;
+  font-size: 26px;
+}
+.textFooter1 {
+  color: white;
+  font-size: 26px;
+}
+.textFooter2 {
+  color: white;
+  font-size: 26px;
+}
+.textFooter3 {
+  color: white;
+  font-size: 26px;
 }
 /* End Footer */

@@ -36,9 +36,6 @@ a:hover {
   width: 30%;
   height: 50px;
 }
-#Hero .linkDonwload {
-  text-decoration: none;
-}
 
 #Hero .container .Herologo1 {
   margin-top: 50px;
@@ -50,11 +47,11 @@ a:hover {
   margin-top: -600px;
 }
 
-#Hero .paragrafHero span {
+#Hero .paragrafHero1 span {
   font-size: 80px;
   font-weight: bold;
 }
-#Hero .paragrafHero {
+#Hero .paragrafHero2 {
   font-size: 30px;
   font-weight: 600;
 }
@@ -191,6 +188,62 @@ a:hover {
 @media (max-width: 320px) {
   .navLogo {
     width: 150px;
+    margin: 10px 0 0 0;
+  }
+
+  .wallshopHeader {
+    width: 150px;
+    margin: -50px 0 0 60px;
+  }
+
+  #Hero .paragrafHero1 span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  #Hero .paragrafHero2 {
+    font-size: 12px;
+  }
+
+  .wallshopMobile {
+    width: 110px;
+    margin: 360px 0 0 0;
+  }
+
+  #Hero .download {
+    background-image: linear-gradient(to right, #be0100, #8d0001);
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    width: 30%;
+    height: 30px;
+  }
+
+  #Hero .container .Herologo1 {
+    margin-top: 50px;
+  }
+
+  #Content .svg1 {
+    display: block;
+    max-width: 100%;
+    margin: 50 0 0 0px;
+  }
+
+  #Content .svg2 {
+    display: block;
+    max-width: 50%;
+    margin: 0 0 0 0;
+  }
+
+  #Content .titleAbout {
+    font-size: 24px;
+    margin: 0px 0 0 0;
+  }
+
+  #Content .textContent1 {
+    font-size: 12px;
     margin: 10px 0 0 0;
   }
 }

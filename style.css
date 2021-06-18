@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  min-height: 5000px;
+  /* min-height: 5000px; */
   font-family: "Poppins";
 }
 a {
@@ -143,30 +143,54 @@ a:hover {
 .textFooterTitle1 {
   color: #c00000;
   font-size: 26px;
-  padding-top: 79px;
+  padding: 79px 0 0 250px;
 }
 .textFooterTitle2 {
   color: #c00000;
   font-size: 26px;
-  padding-top: 79px;
+  padding: 79px 0 0 300px;
   display: flex;
-  text-align: center;
 }
 .textFooterTitle3 {
   color: #c00000;
   font-size: 26px;
+  padding: 70px 0 0 300px;
+}
+.textFooterTitle4 {
+  color: #c00000;
+  font-size: 26px;
+  padding: 50px 0 0 300px;
 }
 .textFooter1 {
   color: white;
   font-size: 26px;
+  padding: 0 0 0 250px;
 }
 .textFooter2 {
   color: white;
   font-size: 26px;
+  padding: 0 0 0 300px;
 }
 .textFooter3 {
   color: white;
   font-size: 26px;
+  padding: 0 0 0 300px;
 }
-
+.svg6 {
+  padding: 0 0 0 300px;
+}
+.svg7 {
+  padding: 0 38px 0 38px;
+}
+.svg8 {
+  padding: 0 0 0 0;
+}
 /* End Footer */
+
+/* Media Queries */
+@media (max-width: 320px) {
+  .navLogo {
+    width: 150px;
+    margin: 10px 0 0 0;
+  }
+}

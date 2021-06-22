@@ -26,14 +26,19 @@ a:hover {
 .heroBackground {
   background-color: black;
 }
+
+.wallshopHeader {
+  width: 20%;
+}
+
 #Hero .download {
   background-image: linear-gradient(to right, #be0100, #8d0001);
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   color: #ffff;
   border-radius: 50px;
   text-transform: uppercase;
-  width: 30%;
+  width: 20%;
   height: 50px;
 }
 
@@ -48,12 +53,18 @@ a:hover {
 }
 
 #Hero .paragrafHero1 span {
-  font-size: 80px;
+  font-size: 50px;
   font-weight: bold;
 }
+
 #Hero .paragrafHero2 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
+}
+
+.wallshopMobile {
+  width: 70%;
+  margin: 160px 0 0 0;
 }
 /* End Hero */
 
@@ -64,26 +75,26 @@ a:hover {
 }
 #Content .svg1 {
   display: block;
-  max-width: 100%;
-  margin-left: 650px;
-  margin-top: 50px;
+  max-width: 50%;
+  margin: 50px 0 0 650px;
 }
 #Content .svg2 {
   display: block;
-  margin-top: -300px;
-  margin-right: 1000px;
+  max-width: 50%;
+  margin: -220px 1000px 0 0;
 }
 #Content .titleAbout {
   color: #c00000;
+  font-size: 30px;
   text-align: center;
+  margin: -220px 0 0 0;
 }
 #Content .textContent1 {
-  font-size: 36px;
+  font-size: 25px;
   text-align: center;
+  margin-top: 16px;
 }
-#Content .titleAbout {
-  margin-top: -400px;
-}
+
 .contentBg {
   position: relative;
   width: 100%;
@@ -101,9 +112,10 @@ a:hover {
   margin: 80px 0 0 0;
 }
 .textContent2 {
-  font-size: 36px;
+  display: flex;
+  font-size: 25px;
   text-align: center;
-  margin: 80px 100px 0 0;
+  margin: 100px 100px 0 0;
 }
 #Content2 .container .contentBg .svg4 {
   display: flex;
@@ -111,14 +123,14 @@ a:hover {
   padding: 100px 0 0 0;
 }
 #Content2 .textContent3 {
-  font-size: 36px;
+  font-size: 25px;
   text-align: center;
   padding: 15px 0 0 0;
 }
 #Content2 .textContent4 {
-  font-size: 36px;
+  font-size: 25px;
   text-align: center;
-  margin: 50px 0 0 0;
+  margin: 60px 0 0 0;
 }
 .svg5 {
   padding: 50px 0 0 0;
@@ -131,52 +143,56 @@ a:hover {
 }
 .titleFooter {
   color: white;
+  font-size: 30px;
   padding: 75px 0 0 0;
   text-transform: uppercase;
 }
 .textFooterTitle1 {
   color: #c00000;
-  font-size: 26px;
+  font-size: 18px;
   padding: 79px 0 0 250px;
 }
 .textFooterTitle2 {
   color: #c00000;
-  font-size: 26px;
+  font-size: 18px;
   padding: 79px 0 0 300px;
 }
 .textFooterTitle3 {
   color: #c00000;
-  font-size: 26px;
-  padding: 70px 0 0 300px;
+  font-size: 18px;
+  padding: 20px 0 0 300px;
 }
 .textFooterTitle4 {
   color: #c00000;
-  font-size: 26px;
-  padding: 50px 0 0 300px;
+  font-size: 18px;
+  padding: 20px 0 0 300px;
 }
 .textFooter1 {
   color: white;
-  font-size: 26px;
+  font-size: 15px;
   padding: 0 0 0 250px;
 }
 .textFooter2 {
   color: white;
-  font-size: 26px;
+  font-size: 15px;
   padding: 0 0 0 300px;
 }
 .textFooter3 {
   color: white;
-  font-size: 26px;
+  font-size: 15px;
   padding: 0 0 0 300px;
 }
 .svg6 {
-  padding: 0 0 0 300px;
+  width: 35px;
+  margin: 0 0 0 300px;
 }
 .svg7 {
-  padding: 0 38px 0 38px;
+  width: 35px;
+  margin: 0 20px 0 20px;
 }
 .svg8 {
-  padding: 0 0 0 0;
+  width: 35px;
+  margin: 0 0 0 0;
 }
 /* End Footer */
 
@@ -193,7 +209,7 @@ a:hover {
   }
 
   #Hero .paragrafHero1 span {
-    font-size: 24px;
+    font-size: 14px;
     font-weight: bold;
   }
 
@@ -202,13 +218,13 @@ a:hover {
   }
 
   #Hero .paragrafHero2 {
-    font-size: 12px;
+    font-size: 10px;
     margin: 0 0 0 10px;
   }
 
   .wallshopMobile {
     width: 110px;
-    margin: 400px 0 0 0;
+    margin: 445px 0 0 0;
   }
 
   #Hero .download {
@@ -229,8 +245,8 @@ a:hover {
 
   #Content .svg1 {
     display: block;
-    max-width: 40%;
-    margin: 130px 0 0 150px;
+    max-width: 45%;
+    margin: 60px 0 0 150px;
   }
 
   #Content .svg2 {
@@ -240,7 +256,7 @@ a:hover {
   }
 
   #Content .titleAbout {
-    font-size: 24px;
+    font-size: 20px;
     margin: -50px 0 0 0;
   }
 
@@ -300,57 +316,231 @@ a:hover {
 
   /* Footer */
   .titleFooter {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .textFooterTitle1 {
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
-    padding: 79px 0 0 0;
+    padding: 40px 0 0 0;
   }
 
   .textFooterTitle2 {
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
-    padding: 50px 0 0 0;
+    padding: 25px 0 0 0;
   }
 
   .textFooterTitle3 {
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
-    padding: 50px 0 0 0;
+    padding: 25px 0 0 0;
   }
   .textFooterTitle4 {
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
-    padding: 50px 0 0 0;
+    padding: 25px 0 0 0;
   }
   .textFooter1 {
     display: flex;
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
     padding: 0 0 0 0;
   }
   .textFooter2 {
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     padding: 0 0 0 0;
   }
   .textFooter3 {
-    font-size: 18px;
+    font-size: 12px;
     text-align: center;
     padding: 0 0 0 0;
   }
   .svg6 {
-    width: 95px;
-    padding: 0 0 0 65px;
+    width: 30px;
+    margin: 0 0 10px 100px;
   }
   .svg7 {
-    width: 10%;
-    padding: 0 0 0 0;
+    width: 30px;
+    margin: 0 0 10px 0px;
   }
   .svg8 {
-    width: 100px;
+    width: 30px;
+    margin: 0 0 10px 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  .navLogo {
+    width: 150px;
+    margin: 10px 0 0 0;
+  }
+
+  .wallshopHeader {
+    width: 150px;
+    margin: -50px 0 0 60px;
+  }
+
+  #Hero .paragrafHero1 span {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  #Hero .paragrafHero1 {
+    margin: 0 0 0 10px;
+  }
+
+  #Hero .paragrafHero2 {
+    font-size: 10px;
+    margin: 0 0 0 10px;
+  }
+
+  .wallshopMobile {
+    width: 110px;
+    margin: 445px 0 0 0;
+  }
+
+  #Hero .download {
+    background-image: linear-gradient(to right, #be0100, #8d0001);
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    width: 30%;
+    height: 30px;
+    margin: 10px 0 0 10px;
+  }
+
+  #Hero .container .Herologo1 {
+    margin-top: 50px;
+  }
+
+  #Content .svg1 {
+    display: block;
+    max-width: 45%;
+    margin: 60px 0 0 150px;
+  }
+
+  #Content .svg2 {
+    display: block;
+    max-width: 40%;
+    margin: -50px 0 0 0;
+  }
+
+  #Content .titleAbout {
+    font-size: 20px;
+    margin: -50px 0 0 0;
+  }
+
+  #Content .textContent1 {
+    font-size: 12px;
+    margin: 10px 0 0 0;
+  }
+
+  .contentBg {
+    margin: 80px 0 0 0;
+    height: 650px;
+  }
+
+  #Content2 .container .contentBg .svg3 {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 0 20px;
+    width: 20%;
+  }
+
+  .textContent2 {
+    display: flex;
+    font-size: 12px;
+    margin: 80px 10px 0 0;
+  }
+
+  #Content2 .container .contentBg .svg4 {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 120px;
+    width: 20%;
+  }
+  #Content2 .textContent3 {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #Content2 .container .contentBg .svg4 {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 0 0;
+    width: 20%;
+  }
+
+  #Content2 .textContent4 {
+    font-size: 12px;
+    text-align: center;
+    margin: 50px 0 0 0px;
+  }
+
+  .svg5 {
+    display: flex;
+    justify-content: center;
+    margin: -20px 0 0 120px;
+    width: 20%;
+  }
+
+  /* Footer */
+  .titleFooter {
+    font-size: 20px;
+  }
+
+  .textFooterTitle1 {
+    font-size: 14px;
+    text-align: center;
+    padding: 40px 0 0 0;
+  }
+
+  .textFooterTitle2 {
+    font-size: 14px;
+    text-align: center;
+    padding: 25px 0 0 0;
+  }
+
+  .textFooterTitle3 {
+    font-size: 14px;
+    text-align: center;
+    padding: 25px 0 0 0;
+  }
+  .textFooterTitle4 {
+    font-size: 14px;
+    text-align: center;
+    padding: 25px 0 0 0;
+  }
+  .textFooter1 {
+    display: flex;
+    text-align: center;
+    font-size: 12px;
     padding: 0 0 0 0;
+  }
+  .textFooter2 {
+    font-size: 12px;
+    text-align: center;
+    padding: 0 0 0 0;
+  }
+  .textFooter3 {
+    font-size: 12px;
+    text-align: center;
+    padding: 0 0 0 0;
+  }
+  .svg6 {
+    width: 30px;
+    margin: 0 0 10px 100px;
+  }
+  .svg7 {
+    width: 30px;
+    margin: 0 0 10px 0px;
+  }
+  .svg8 {
+    width: 30px;
+    margin: 0 0 10px 0px;
   }
 }

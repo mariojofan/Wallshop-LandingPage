@@ -7,8 +7,11 @@ html {
 }
 
 .buttonDownload {
-  color: #ffff;
   background-image: linear-gradient(to right, #be0100, #8d0001);
-  border-radius: 10px;
-  width: 200px;
+  border-radius: 30px;
+  width: 20%;
+  height: 12%;
+}
+.buttonDownload a {
+  color: #ffff;
 }

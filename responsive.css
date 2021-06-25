@@ -6,6 +6,18 @@ html {
   scroll-behavior: smooth;
 }
 
+.titleAbout {
+  margin-top: -150px;
+}
+.textAbout {
+  font-size: 24px;
+}
+.textPackaging {
+  font-size: 24px;
+}
+.waves {
+  margin-top: -20px;
+}
 .buttonDownload {
   background-image: linear-gradient(to right, #be0100, #8d0001);
   border-radius: 30px;
@@ -14,4 +26,72 @@ html {
 }
 .buttonDownload a {
   color: #ffff;
+}
+.contentBg {
+  position: relative;
+  width: 85%;
+  height: 1000px;
+  top: -100px;
+
+  background: #ffffff;
+  border: 5px solid #c00000;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+#Footer {
+  background-color: #262626;
+}
+.titleFooter {
+  color: white;
+  font-size: 30px;
+  padding: 75px 0 0 0;
+  text-transform: uppercase;
+}
+.textFooterTitle1 {
+  color: #c00000;
+  font-size: 18px;
+  padding: 79px 0 0 250px;
+}
+.textFooterTitle2 {
+  color: #c00000;
+  font-size: 18px;
+  padding: 79px 0 0 300px;
+}
+.textFooterTitle3 {
+  color: #c00000;
+  font-size: 18px;
+  padding: 20px 0 0 300px;
+}
+.textFooterTitle4 {
+  color: #c00000;
+  font-size: 18px;
+  padding: 20px 0 0 300px;
+}
+.textFooter1 {
+  color: white;
+  font-size: 15px;
+  padding: 0 0 0 250px;
+}
+.textFooter2 {
+  color: white;
+  font-size: 15px;
+  padding: 0 0 0 300px;
+}
+.textFooter3 {
+  color: white;
+  font-size: 15px;
+  padding: 0 0 0 300px;
+}
+.svg6 {
+  width: 35px;
+  margin: 0 0 0 300px;
+}
+.svg7 {
+  width: 35px;
+  margin: 0 20px 0 20px;
+}
+.svg8 {
+  width: 35px;
+  margin: 0 0 0 0;
 }

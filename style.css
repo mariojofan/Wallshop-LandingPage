@@ -359,7 +359,7 @@ a:hover {
   }
   .svg6 {
     width: 30px;
-    margin: 0 0 10px 100px;
+    margin: 0 0 10px 0px;
   }
   .svg7 {
     width: 30px;
@@ -533,7 +533,180 @@ a:hover {
   }
   .svg6 {
     width: 30px;
-    margin: 0 0 10px 100px;
+    margin: 0 0 10px 125px;
+  }
+  .svg7 {
+    width: 30px;
+    margin: 0 0 10px 0px;
+  }
+  .svg8 {
+    width: 30px;
+    margin: 0 0 10px 0px;
+  }
+}
+
+@media (max-width: 425px) {
+  .navLogo {
+    width: 150px;
+    margin: 10px 0 0 0;
+  }
+
+  .wallshopHeader {
+    width: 150px;
+  }
+
+  #Hero .paragrafHero1 span {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  #Hero .paragrafHero1 {
+    margin: 0 0 0 10px;
+  }
+
+  #Hero .paragrafHero2 {
+    font-size: 10px;
+    margin: 0 0 0 10px;
+  }
+
+  .wallshopMobile {
+    width: 150px;
+    margin: 445px 0 0 0;
+  }
+
+  #Hero .download {
+    background-image: linear-gradient(to right, #be0100, #8d0001);
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    width: 30%;
+    height: 30px;
+    margin: 10px 0 0 10px;
+  }
+
+  #Hero .container .Herologo1 {
+    margin-top: 50px;
+  }
+
+  #Content .svg1 {
+    display: block;
+    max-width: 45%;
+    margin: 40px 0 0 200px;
+  }
+
+  #Content .svg2 {
+    display: block;
+    max-width: 40%;
+    margin: -50px 0 0 0;
+  }
+
+  #Content .titleAbout {
+    font-size: 20px;
+    margin: -50px 0 0 0;
+  }
+
+  #Content .textContent1 {
+    font-size: 12px;
+    margin: 10px 0 0 0;
+  }
+
+  .contentBg {
+    margin: 80px 0 0 0;
+    height: 650px;
+  }
+
+  #Content2 .container .contentBg .svg3 {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 0 20px;
+    width: 20%;
+  }
+
+  .textContent2 {
+    display: flex;
+    font-size: 12px;
+    margin: 80px 10px 0 0;
+  }
+
+  #Content2 .container .contentBg .svg4 {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 120px;
+    width: 20%;
+  }
+  #Content2 .textContent3 {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #Content2 .container .contentBg .svg4 {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 0 0;
+    width: 20%;
+  }
+
+  #Content2 .textContent4 {
+    font-size: 12px;
+    text-align: center;
+    margin: 50px 0 0 0px;
+  }
+
+  .svg5 {
+    display: flex;
+    justify-content: center;
+    margin: -20px 0 0 120px;
+    width: 20%;
+  }
+
+  /* Footer */
+  .titleFooter {
+    font-size: 20px;
+  }
+
+  .textFooterTitle1 {
+    font-size: 14px;
+    text-align: center;
+    padding: 40px 0 0 0;
+  }
+
+  .textFooterTitle2 {
+    font-size: 14px;
+    text-align: center;
+    padding: 25px 0 0 0;
+  }
+
+  .textFooterTitle3 {
+    font-size: 14px;
+    text-align: center;
+    padding: 25px 0 0 0;
+  }
+  .textFooterTitle4 {
+    font-size: 14px;
+    text-align: center;
+    padding: 25px 0 0 0;
+  }
+  .textFooter1 {
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    padding: 0 0 0 0;
+  }
+  .textFooter2 {
+    font-size: 12px;
+    text-align: center;
+    padding: 0 0 0 0;
+  }
+  .textFooter3 {
+    font-size: 12px;
+    text-align: center;
+    padding: 0 0 0 0;
+  }
+  .svg6 {
+    width: 30px;
+    margin: 0 0 10px 125px;
   }
   .svg7 {
     width: 30px;

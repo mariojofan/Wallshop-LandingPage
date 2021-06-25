@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.buttonDownload {
+  color: #ffff;
+  background-image: linear-gradient(to right, #be0100, #8d0001);
+  border-radius: 10px;
+  width: 200px;
+}

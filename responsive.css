@@ -209,6 +209,9 @@ html {
     box-sizing: border-box;
     border-radius: 30px;
   }
+  .address {
+    margin-left: -40px;
+  }
   .instagram {
     margin-left: 270px;
   }
@@ -278,24 +281,12 @@ html {
   #Footer {
     background-color: #262626;
   }
-  .contactUs {
-    color: #c00000;
-  }
   .headOffice {
     color: #c00000;
     margin-left: 200px;
   }
   .address {
     margin-left: 200px;
-  }
-  .email {
-    color: #c00000;
-  }
-  .phone {
-    color: #c00000;
-  }
-  .connect {
-    color: #c00000;
   }
   .instagram {
     margin-left: auto;
@@ -366,20 +357,8 @@ html {
   .contactUs {
     color: #c00000;
   }
-  .headOffice {
-    color: #c00000;
-  }
   .address {
-    margin-left: 200px;
-  }
-  .email {
-    color: #c00000;
-  }
-  .phone {
-    color: #c00000;
-  }
-  .connect {
-    color: #c00000;
+    margin-left: 175px;
   }
   .instagram {
     margin-left: auto;

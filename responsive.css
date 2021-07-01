@@ -1,0 +1,458 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.wallshopMobile {
+  width: 100px;
+  margin-top: 60px;
+}
+.titleAbout {
+  margin-top: -50px;
+}
+.textAbout {
+  font-size: 12px;
+}
+.imgPackaging {
+  width: 100px;
+}
+.textPackaging {
+  font-size: 14px;
+}
+.imgGps {
+  width: 100px;
+}
+.textGps {
+  font-size: 14px;
+}
+.imgConversation {
+  width: 100px;
+  margin-left: 20px;
+}
+.textConversation {
+  font-size: 14px;
+  margin-left: 20px;
+}
+.waves1 {
+  width: 150px;
+  margin-top: -20px;
+}
+.waves2 {
+  width: 150px;
+}
+.buttonDownload {
+  background-image: linear-gradient(to right, #be0100, #8d0001);
+  border-radius: 30px;
+  width: 45%;
+  height: 12%;
+}
+.buttonDownload a {
+  color: #ffff;
+}
+.contentBg {
+  position: relative;
+  width: 85%;
+  height: 850px;
+  top: -50px;
+
+  background: #ffffff;
+  border: 5px solid #c00000;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.footer {
+  background-color: #262626;
+}
+
+@media (min-width: 320px) {
+  .wallshopMobile {
+    width: 100px;
+    margin-top: 60px;
+  }
+  .titleAbout {
+    margin-top: -50px;
+  }
+  .textAbout {
+    font-size: 12px;
+  }
+  .imgPackaging {
+    width: 100px;
+  }
+  .textPackaging {
+    font-size: 14px;
+  }
+  .imgGps {
+    width: 100px;
+    margin-top: 50px;
+  }
+  .textGps {
+    font-size: 14px;
+  }
+  .imgConversation {
+    width: 100px;
+    margin-left: 20px;
+  }
+  .textConversation {
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  .waves1 {
+    width: 150px;
+    margin-top: -20px;
+  }
+  .waves2 {
+    width: 150px;
+  }
+  .buttonDownload {
+    background-image: linear-gradient(to right, #be0100, #8d0001);
+    border-radius: 30px;
+    width: 150px;
+    height: 12%;
+  }
+  .buttonDownload a {
+    color: #ffff;
+  }
+  .contentBg {
+    position: relative;
+    width: 85%;
+    height: 850px;
+    top: -50px;
+
+    background: #ffffff;
+    border: 5px solid #c00000;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+
+  .footer {
+    background-color: #262626;
+  }
+}
+
+@media (min-width: 576px) {
+  .wallshopMobile {
+    width: 200px;
+  }
+  .buttonDownload {
+    background-image: linear-gradient(to right, #be0100, #8d0001);
+    border-radius: 30px;
+    width: 25%;
+    height: 12%;
+  }
+  .waves1 {
+    width: 250px;
+  }
+  .waves2 {
+    width: 250px;
+  }
+  .titleAbout {
+    margin-top: -20px;
+  }
+  .textAbout {
+    font-size: 15px;
+  }
+  .textPackaging {
+    font-size: 18px;
+  }
+  .textGps {
+    font-size: 18px;
+  }
+  .textConversation {
+    font-size: 18px;
+  }
+  .contentBg {
+    position: relative;
+    width: 85%;
+    height: 800px;
+    top: -100px;
+
+    background: #ffffff;
+    border: 5px solid #c00000;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+  .imgPackaging {
+    width: 100px;
+  }
+  .imgGps {
+    width: 100px;
+  }
+  .imgConversation {
+    width: 100px;
+  }
+  .instagram {
+    margin-left: 180px;
+  }
+}
+
+@media (min-width: 768px) {
+  .textPackaging {
+    margin-top: 80px;
+  }
+  .buttonDownload {
+    background-image: linear-gradient(to right, #be0100, #8d0001);
+    border-radius: 30px;
+    width: 200px;
+    height: 12%;
+  }
+  .contentBg {
+    position: relative;
+    width: 85%;
+    height: 750px;
+    top: -100px;
+
+    background: #ffffff;
+    border: 5px solid #c00000;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+  .address {
+    margin-left: 0px;
+  }
+  .instagram {
+    margin-left: 270px;
+  }
+}
+
+@media (min-width: 992px) {
+  .wallshopMobile {
+    width: auto;
+    margin-top: auto;
+  }
+  .titleAbout {
+    margin-top: -150px;
+  }
+  .textAbout {
+    font-size: 24px;
+  }
+  .imgPackaging {
+    width: 200px;
+  }
+  .textPackaging {
+    font-size: 30px;
+  }
+  .imgGps {
+    width: 200px;
+    margin-top: 100px;
+  }
+  .textGps {
+    font-size: 30px;
+  }
+  .imgConversation {
+    width: 200px;
+  }
+  .textConversation {
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  .waves1 {
+    width: 40%;
+  }
+  .waves2 {
+    width: 35%;
+  }
+  .buttonDownload {
+    background-image: linear-gradient(to right, #be0100, #8d0001);
+    border-radius: 30px;
+    width: 20%;
+    height: 12%;
+  }
+  .buttonDownload a {
+    color: #ffff;
+  }
+  .contentBg {
+    position: relative;
+    width: 85%;
+    height: 1200px;
+    top: -100px;
+
+    background: #ffffff;
+    border: 5px solid #c00000;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+  .imgConversation {
+    margin-top: 100px;
+  }
+
+  #Footer {
+    background-color: #262626;
+  }
+  .headOffice {
+    color: #c00000;
+    margin-left: 200px;
+  }
+  .address {
+    margin-left: 135px;
+  }
+  .instagram {
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wallshopMobile {
+    width: auto;
+    margin-top: auto;
+  }
+  .titleAbout {
+    margin-top: -150px;
+  }
+  .textAbout {
+    font-size: 24px;
+  }
+  .imgPackaging {
+    width: 200px;
+  }
+  .textPackaging {
+    font-size: 30px;
+  }
+  .imgGps {
+    width: 200px;
+    margin-top: 150px;
+  }
+  .textGps {
+    font-size: 30px;
+  }
+  .textConversation {
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  .waves1 {
+    width: 40%;
+  }
+  .waves2 {
+    width: 35%;
+  }
+  .buttonDownload {
+    background-image: linear-gradient(to right, #be0100, #8d0001);
+    border-radius: 30px;
+    width: 20%;
+    height: 12%;
+  }
+  .buttonDownload a {
+    color: #ffff;
+  }
+  .contentBg {
+    position: relative;
+    width: 85%;
+    height: 1200px;
+    top: -100px;
+
+    background: #ffffff;
+    border: 5px solid #c00000;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+  .imgConversation {
+    margin-top: 100px;
+  }
+
+  #Footer {
+    background-color: #262626;
+  }
+  .contactUs {
+    color: #c00000;
+  }
+  .address {
+    margin-left: 175px;
+  }
+  .instagram {
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  .wallshopMobile {
+    width: auto;
+    margin-top: auto;
+  }
+  .titleAbout {
+    margin-top: -150px;
+  }
+  .textAbout {
+    font-size: 24px;
+  }
+  .imgPackaging {
+    width: 200px;
+  }
+  .textPackaging {
+    font-size: 30px;
+  }
+  .imgGps {
+    width: 200px;
+    margin-top: 150px;
+  }
+  .textGps {
+    font-size: 30px;
+  }
+  .textConversation {
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  .waves1 {
+    width: 40%;
+  }
+  .waves2 {
+    width: 35%;
+  }
+  .buttonDownload {
+    background-image: linear-gradient(to right, #be0100, #8d0001);
+    border-radius: 30px;
+    width: 20%;
+    height: 12%;
+  }
+  .buttonDownload a {
+    color: #ffff;
+  }
+  .contentBg {
+    position: relative;
+    width: 85%;
+    height: 1200px;
+    top: -100px;
+
+    background: #ffffff;
+    border: 5px solid #c00000;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+  .imgConversation {
+    margin-top: 100px;
+  }
+
+  #Footer {
+    background-color: #262626;
+  }
+  .contactUs {
+    color: #c00000;
+  }
+  .headOffice {
+    color: #c00000;
+    margin-left: 200px;
+  }
+  .address {
+    margin-left: 210px;
+  }
+  .email {
+    color: #c00000;
+  }
+  .phone {
+    color: #c00000;
+  }
+  .connect {
+    color: #c00000;
+  }
+  .instagram {
+    margin-left: auto;
+  }
+}
+
+/* Utilities */
+
+/* Font Color */
+.fontC00000 {
+  color: #c00000;
+}
